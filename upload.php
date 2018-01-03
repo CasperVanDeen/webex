@@ -96,13 +96,13 @@ function sql_execute($tit, $stit, $project_pic, $p_description) {
         $uploadOk = 0;
     }
     // Check file size
-    if ($_FILES["project_pic"]["size"] > 500000) {
+    if ($_FILES["project_pic"]["size"] > 800000) {
         echo "Sorry, your file is too large.";
         $uploadOk = 0;
     }
     // Allow certain file formats
     if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-    && $imageFileType != "gif" ) {
+    && $imageFileType != "gif" && $imageFileType != "JPG" && $imageFileType != "JPEG" ) {
         echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
         $uploadOk = 0;
     }

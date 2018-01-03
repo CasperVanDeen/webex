@@ -15,7 +15,7 @@
 		 <li><a class="btn btn-danger" href="logout.php"> Logout &nbsp <span class="glyphicon glyphicon-log-out"> </span></a></li>
 
 		 '; } else {
-	echo'<li><a href="login.php"> Login &nbsp<span class="glyphicon glyphicon-log-in"> </span></a> </li>';
+
 }?>
       </ul>
     </div>

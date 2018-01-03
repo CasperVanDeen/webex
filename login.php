@@ -141,7 +141,6 @@ setTimeout(function(){window.location.href='index.php'}, 2000);
 					<br>
 				<p class="wtp">Password: <input class="form-control" type="password" name="pw" required> </p>
 					<br>
-				<input class="btn btn-danger" type="submit" name="submit" value="Create user" />
 				<input class="btn btn-success" type="submit" name="login" value="Login" />
 					<br>
 						
